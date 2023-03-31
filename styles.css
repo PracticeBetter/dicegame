@@ -1,0 +1,73 @@
+/* Background Color */
+body {
+    background-color: #2C3333;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+}
+
+.refresh {
+    font-size: 5rem;
+    padding-top: 8%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Changa One', cursive;
+    color: #7AA874;
+}
+
+
+
+.player {
+    font-size: 2rem;
+    font-family: 'Fasthand', cursive;
+    color: #539165;
+    padding-top: 5%;
+}
+
+#p1 {
+    padding-left: 80%;
+}
+
+#p2 {
+    padding-right: 80%;
+}
+
+/* Dice Section */
+
+.diceSection {
+    text-align: center;
+}
+
+.dice {
+    width: 10%;
+    margin: 2rem 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    
+    .refresh {
+        padding-top: 40%;
+    }
+
+    .player {
+        font-size: 1.5rem;
+    }
+
+    #p1 {
+        padding-left: 50%;
+    }
+    
+    #p2 {
+        padding-right: 50%;
+    }
+
+    .dice {
+        width: 23%;}
+
+    .refresh {
+        font-size: 4rem;
+    }
+}
